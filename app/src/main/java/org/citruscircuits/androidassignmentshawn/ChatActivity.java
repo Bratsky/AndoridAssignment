@@ -77,7 +77,7 @@ ListView ChatList;
                     view = layoutInflater.inflate(android.R.layout.simple_list_item_1, viewGroup,false);
                 }
                 TextView Message = (TextView) view.findViewById(android.R.id.text1);
-                Message.setText();
+                Message.setText(foodList.get(i).toString());
             }
 
             @Override
